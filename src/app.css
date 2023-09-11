@@ -1,0 +1,25 @@
+.appConatainer {
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+  color: white;
+}
+
+.main {
+  width: 80%;
+  background-image: url("./assets/qui-veut-gagner-des-millions-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.rewards {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.rewardListItem {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
