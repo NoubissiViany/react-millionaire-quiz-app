@@ -25,7 +25,7 @@ export default function App() {
       <div className="rewards">
         <ul className="rewardList">
           {rewardsAmount.map((m) => (
-            <li className="rewardListItem">
+            <li key={m.id} className="rewardListItem">
               <span className="rewardListItemNumber">{m.id}</span>
               <span className="rewardListItemAmount">{m.amount}</span>
             </li>
