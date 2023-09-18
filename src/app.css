@@ -20,6 +20,18 @@
 
 .rewardListItem {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2rem;
+  padding: 8px 3rem 8px 8px;
+  font-size: large;
+}
+
+.rewardListItemAmount:after {
+  content: "XAF";
+  padding-inline: 5px;
+}
+
+.rewardListItem.active {
+  background-color: teal;
+  border-radius: 5px;
 }
