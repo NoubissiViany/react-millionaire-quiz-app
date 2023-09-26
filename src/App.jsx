@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Quiz from "./components/Quiz";
 import "./app.css";
 
 export default function App() {
@@ -27,7 +28,7 @@ export default function App() {
         <div className="top">
           <div className="timer">30</div>
         </div>
-        <div className="bottom">question and answers</div>
+        <div className="bottom"><Quiz/></div>
       </div>
       <div className="rewards">
         <ul className="rewardList">
